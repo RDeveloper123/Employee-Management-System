@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e7e8ed;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
+/* sidebar */
+.Hrm img {
+  max-width: 100%;
+}
+.Hrm .Hrm-sidebar {
+  background-color: #0A1329;
+  padding: 2% 0px;
+  text-align: center;
+  height: auto;
+}
+
+.Hrm .Hrm-sidebar .nav-link {
+  color: white;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: start;
+
+  padding-left: 12%;
+}
+.Hrm .Hrm-sidebar .nav-link img {
+  padding-right: 5%;
+}
+
+/* Hrm Form Header*/
+.navbar {
+  margin: 2%;
+}
+.navbar form input {
+  border-radius: 10px;
+}
+
+/* Hrm Form */
+.Hrm-form {
+  margin: 2%;
+  padding: 2%;
+}
+.Hrm-form h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.Hrm-form form label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #417dff;
+}
+.Hrm-form form input {
+  border-radius: 10px;
+}
+.Hrm-form form select {
+  border-radius: 10px;
+}
+.Hrm-form form button {
+  border-radius: 10px;
+  padding: 3% 8%;
+  border: none;
+}
+@media screen and (max-width: 585px) {
+  .Hrm .container-fluid form {
+    margin: 0px -20px;
+  }
+  .Hrm button {
+    font-size: 10px;
+  }
+
+  .Hrm .navbar form input {
+    font-size: 9px !important;
+  }
+  .Hrm .navbar form i {
+    padding: 0px 5px !important;
+    font-size: 10px !important;
+  }
+
+  /* form side */
+  .Hrm-form h2 {
+    font-size: 23px;
+  }
+  .Hrm-form form label {
+    font-size: 16px;
+  }
+  .Hrm-form form input {
+    font-size: 13px;
+  }
+  .Hrm-form form select {
+    font-size: 13px;
+  }
+}
