@@ -1,0 +1,2 @@
+- Headline: Building a User-Friendly Employee Management System with Node.js, Express.js, React, and MongoDB.
+- Description: Check out this short video demonstrating the development process of a web application that allows users to add new employees to a database. The application features a user-friendly form, seamless backend integration, and robust data validation.
